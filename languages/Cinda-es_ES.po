@@ -1,0 +1,1017 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CINDA: Volunteers Networks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Apr 06 2016 13:59:30 GMT+0200 (Hora de verano "
+"romance)\n"
+"PO-Revision-Date: Thu Aug 04 2016 12:43:44 GMT+0200 (CEST)\n"
+"Last-Translator: si2wf1 <you@example.com>\n"
+"Language-Team: \n"
+"Language: Spanish (Spain)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: es_ES"
+
+#: ../assets/views/cinda/page_options.php:93
+msgid "Others options:"
+msgstr "Otras opciones:"
+
+#: ../assets/views/cinda/page_options.php:97
+msgid "Use WordPress Users"
+msgstr "Usar usuarios de Wordpress"
+
+#. Name of the plugin
+msgid "CINDA: Volunteers Networks"
+msgstr "CINDA: Red de voluntariado"
+
+#. URI of the plugin
+msgid "http://www.cinda.science"
+msgstr "http://www.cinda.science"
+
+#. Description of the plugin
+msgid "Gestión de campañas para acciones de voluntariado."
+msgstr "Gestión de campañas para acciones de voluntariado."
+
+#. Author of the plugin
+msgid "SI2 Pequeñas y Grandes Soluciones"
+msgstr "SI2 Pequeñas y Grandes Soluciones"
+
+#. Author URI of the plugin
+msgid "http://si2.info"
+msgstr "http://si2.info"
+
+#: ../init.php:65 ../assets/views/campaign/contributions_table.php:10
+msgid "Date"
+msgstr "Fecha"
+
+#: ../init.php:66
+msgid "Date and Time"
+msgstr "Fecha y Hora"
+
+#: ../init.php:67
+msgid "Description Text"
+msgstr "Descripción"
+
+#: ../init.php:68 ../assets/views/campaign/field_table.php:66 ..
+#: library/CPT/Dictionary.php:31 ../library/CPT/Dictionary.php:35
+msgid "Dictionary"
+msgstr "Diccionario"
+
+#: ../init.php:69
+msgid "File"
+msgstr "Archivo"
+
+#: ../init.php:70
+msgid "Geoposition"
+msgstr "Geoposicionamiento"
+
+#: ../init.php:71
+msgid "Number"
+msgstr "Número"
+
+#: ../init.php:72
+msgid "Image"
+msgstr "Imagen"
+
+#: ../init.php:73
+msgid "Selection"
+msgstr "Selección"
+
+#: ../init.php:74
+msgid "Input Text"
+msgstr "Campo de texto"
+
+#: ../init.php:75
+msgid "Text Area"
+msgstr "Área de texto"
+
+#: ../assets/views/volunteer/profile_data_table.php:8
+msgid "Field"
+msgstr "Campo"
+
+#: ../assets/views/volunteer/profile_data_table.php:9
+msgid "Value"
+msgstr "Valor"
+
+#: ../assets/views/volunteer/profile_data_table.php:14
+msgid "Nickname"
+msgstr "Nombre de usuario"
+
+#: ../assets/views/volunteer/profile_data_table.php:18 ..
+#: templates/app/volunteer/login.php:19
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: ../assets/views/volunteer/profile_data_table.php:22
+msgid "Device ID"
+msgstr "ID de dispositivo"
+
+#: ../assets/views/volunteer/profile_data_table.php:26
+msgid "Avatar"
+msgstr "Avatar"
+
+#: ../assets/views/volunteer/profile_data_table.php:31
+msgid "Wordpress user"
+msgstr "Usuario de wordpress"
+
+#: ../assets/views/volunteer/profile_data_table.php:34
+msgid "Choose an option"
+msgstr "Escoja una opción"
+
+#: ../assets/views/campaign/attributes_table.php:8
+msgid "Logo Image"
+msgstr "Logotipo"
+
+#: ../assets/views/campaign/attributes_table.php:16 ..
+#: assets/views/campaign/attributes_table.php:28 ../library/APP/functions.php:118
+msgid "Select Image"
+msgstr "Seleccionar imagen"
+
+#: ../assets/views/campaign/attributes_table.php:20
+msgid "Cover Image"
+msgstr "Imagen de portada"
+
+#: ../assets/views/campaign/attributes_table.php:32 ../templates/single-campaign.
+#: php:34
+msgid "Start date"
+msgstr "Fecha inicio"
+
+#: ../assets/views/campaign/attributes_table.php:36 ../templates/single-campaign.
+#: php:39
+msgid "End date"
+msgstr "Fecha final"
+
+#: ../assets/views/campaign/attributes_table.php:40 ../templates/single-campaign.
+#: php:44
+msgid "Geographical Scope"
+msgstr "Ámbito geográfico"
+
+#: ../assets/views/campaign/attributes_table.php:44
+msgid "Geolocalization"
+msgstr "Geolocalización"
+
+#: ../assets/views/campaign/attributes_table.php:51
+msgid "Radium (Kms)"
+msgstr "Radio (Kms)"
+
+#: ../assets/views/campaign/attributes_table.php:55
+msgid "Color"
+msgstr "Color"
+
+#: ../assets/views/campaign/attributes_table.php:59 ../library/Cinda.php:376 ..
+#: library/Cinda.php:377
+msgid "Tracking"
+msgstr "Seguimiento"
+
+#: ../assets/views/campaign/attributes_table.php:61 ..
+#: assets/views/cinda/page_options.php:100 ../assets/views/cinda/page_push.php:63
+msgid "Yes"
+msgstr "Si"
+
+#: ../assets/views/campaign/attributes_table.php:62 ..
+#: assets/views/cinda/page_options.php:101 ../assets/views/cinda/page_push.php:64
+msgid "No"
+msgstr "No"
+
+#: ../assets/views/campaign/attributes_table.php:66
+msgid "Administrator email"
+msgstr "Email del administrador"
+
+#: ../assets/views/campaign/attributes_table.php:69
+msgid ""
+"(Optional) In this field, you can specify the administrator email acount to "
+"send notifications about the campaign (New contributions, etc.)."
+msgstr ""
+"(Opcional) En este campo, puedes especificar el correo electrónico del "
+"administrador para enviar notificaciones sobre la camapaña (Nuevas "
+"contribuciones, etc.)."
+
+#: ../assets/views/campaign/contributions_table.php:8
+msgid "ID"
+msgstr "ID"
+
+#: ../assets/views/campaign/contributions_table.php:9
+msgid "Author"
+msgstr "Autor"
+
+#: ../assets/views/campaign/contributions_table.php:11 ..
+#: assets/views/campaign/model_table.php:22 ../templates/app/contribution/view.
+#: php:39
+msgid "Edit"
+msgstr "Editar"
+
+#: ../assets/views/campaign/contributions_table.php:34
+msgid "No contributions found."
+msgstr "No se encontraron contribuciones."
+
+#: ../assets/views/campaign/field_table.php:26
+msgid "Position"
+msgstr "Posición."
+
+#: ../assets/views/campaign/field_table.php:33 ..
+#: assets/views/campaign/model_table.php:18
+msgid "Label"
+msgstr "Etiqueta"
+
+#: ../assets/views/campaign/field_table.php:40 ..
+#: assets/views/campaign/model_table.php:19 ../assets/views/cinda/page_export.
+#: php:25 ../assets/views/cinda/page_export.php:82
+msgid "Name"
+msgstr "Nombre"
+
+#: ../assets/views/campaign/field_table.php:42
+msgid "This field is automatically filled"
+msgstr "Este campo se autorrellenará"
+
+#: ../assets/views/campaign/field_table.php:47
+msgid "Required"
+msgstr "Obligatorio"
+
+#: ../assets/views/campaign/field_table.php:54
+msgid "Type"
+msgstr "Tipo"
+
+#: ../assets/views/campaign/field_table.php:57 ..
+#: assets/views/dictionary/csv_table.php:14
+msgid "Select"
+msgstr "Seleccionar"
+
+#: ../assets/views/campaign/field_table.php:69
+msgid "Select a dictionary"
+msgstr "Seleccionar un diccionario"
+
+#: ../assets/views/campaign/field_table.php:81 ..
+#: assets/views/campaign/model_table.php:21 ../templates/single-campaign.php:29
+msgid "Description"
+msgstr "Descripción"
+
+#: ../assets/views/campaign/field_table.php:88
+msgid "Options"
+msgstr "Opciones"
+
+#: ../assets/views/campaign/field_table.php:90
+msgid "Option 1 | Option 2 | ..."
+msgstr "Opcion 1 | Opcion 2 | ..."
+
+#: ../assets/views/campaign/field_table.php:91
+msgid "Separate the options with |"
+msgstr "Separar las opciones con |"
+
+#: ../assets/views/campaign/field_table.php:97
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: ../assets/views/campaign/field_table.php:97
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../assets/views/campaign/field_table.php:98
+msgid "Accept"
+msgstr "Aceptar"
+
+#: ../assets/views/campaign/new_field.php:12
+msgid "New Field"
+msgstr "Nuevo campo"
+
+#: ../assets/views/campaign/model_table.php:10 ..
+#: assets/views/campaign/model_table.php:87
+msgid "Add new field"
+msgstr "Añadir nuevo campo"
+
+#: ../assets/views/campaign/model_table.php:17
+msgid "Pos"
+msgstr "Pos."
+
+#: ../assets/views/campaign/model_table.php:20
+msgid "Field Type"
+msgstr "Tipo de campo"
+
+#: ../assets/views/campaign/model_table.php:77
+msgid "No fields yet."
+msgstr "No se han creado campos aun."
+
+#: ../assets/views/campaign/model_table.php:78
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+#: ../assets/views/campaign/model_table.php:91
+msgid "Discard All Changes"
+msgstr "Descartar todos los cambios"
+
+#: ../assets/views/campaign/model_table.php:93
+msgid "Save All Changes"
+msgstr "Guardar todos los cambios"
+
+#: ../assets/views/dictionary/csv_table.php:8
+msgid "CSV File:"
+msgstr "Archivo CSV:"
+
+#: ../assets/views/dictionary/csv_table.php:18
+msgid "CSV Encoding:"
+msgstr "Codificación del CSV:"
+
+#: ../assets/views/dictionary/csv_table.php:22
+msgid "CSV Format:"
+msgstr "Formato del CSV:"
+
+#: ../assets/views/dictionary/csv_table.php:23
+msgid "Term name"
+msgstr "Nombre término"
+
+#: ../assets/views/dictionary/csv_table.php:23
+msgid "Term long description"
+msgstr "Descripción larga del término"
+
+#: ../assets/views/dictionary/code_table.php:8 ..
+#: assets/views/dictionary/terms_table.php:40
+msgid "Code:"
+msgstr "Código:"
+
+#: ../assets/views/dictionary/terms_table.php:15
+msgid "File Imported:"
+msgstr "Archivo importado:"
+
+#: ../assets/views/dictionary/terms_table.php:20 ..
+#: assets/views/dictionary/terms_table.php:41
+msgid "Name:"
+msgstr "Nombre:"
+
+#: ../assets/views/dictionary/terms_table.php:24
+msgid "Upload at:"
+msgstr "Subido el:"
+
+#: ../assets/views/dictionary/terms_table.php:28
+msgid "File:"
+msgstr "Arhivo:"
+
+#: ../assets/views/dictionary/terms_table.php:29
+msgid "Download"
+msgstr "Descargar"
+
+#: ../assets/views/dictionary/terms_table.php:36
+msgid "Terms:"
+msgstr "Términos:"
+
+#: ../assets/views/dictionary/terms_table.php:42
+msgid "Description:"
+msgstr "Descripción:"
+
+#: ../assets/views/dictionary/terms_table.php:58
+msgid "Doesn´t has imported csv file yet"
+msgstr "No se ha importado CSV aun."
+
+#: ../assets/views/cinda/page_options.php:9
+msgid "Options updated."
+msgstr "Opciones guardadas."
+
+#: ../assets/views/cinda/page_options.php:16
+msgid "Plugin configuration."
+msgstr "Configuración del Plugin."
+
+#: ../assets/views/cinda/page_options.php:28
+msgid "General options:"
+msgstr "Opciones generales:"
+
+#: ../assets/views/cinda/page_options.php:34
+msgid "Server Name"
+msgstr "Nombre del servidor"
+
+#: ../assets/views/cinda/page_options.php:38
+msgid "Server Description"
+msgstr "Descripción del servidor"
+
+#: ../assets/views/cinda/page_options.php:42
+msgid "Public URL"
+msgstr "URL Pública"
+
+#: ../assets/views/cinda/page_options.php:48
+msgid "Google Maps options:"
+msgstr "Opciones de Google Maps:"
+
+#: ../assets/views/cinda/page_options.php:52
+msgid "API KEY"
+msgstr "API KEY"
+
+#: ../assets/views/cinda/page_options.php:58
+msgid "Notification options:"
+msgstr "Opciones de notificación:"
+
+#: ../assets/views/cinda/page_options.php:62
+msgid "Platform"
+msgstr "Plataforma"
+
+#: ../assets/views/cinda/page_options.php:71
+msgid "URL"
+msgstr "URL"
+
+#: ../assets/views/cinda/page_options.php:76
+msgid "Application Id"
+msgstr "ID de Aplicación"
+
+#: ../assets/views/cinda/page_options.php:81
+msgid "REST API Key"
+msgstr "Clave REST API"
+
+#: ../assets/views/cinda/page_options.php:86
+msgid "Client API Key"
+msgstr "API KEY Cliente"
+
+#: ../assets/views/cinda/page_options.php:107
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: ../assets/views/cinda/page_push.php:5 ../library/Cinda.php:367 ..
+#: library/Cinda.php:368
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: ../assets/views/cinda/page_push.php:15
+msgid "Parse"
+msgstr "Parse"
+
+#: ../assets/views/cinda/page_push.php:18
+msgid "Title"
+msgstr "Título"
+
+#: ../assets/views/cinda/page_push.php:20
+msgid "Write your custom title"
+msgstr "Escriba un titulo."
+
+#: ../assets/views/cinda/page_push.php:25
+msgid "Text / Message"
+msgstr "Texto / Mensaje"
+
+#: ../assets/views/cinda/page_push.php:36
+msgid "Send to"
+msgstr "Enviar a"
+
+#: ../assets/views/cinda/page_push.php:38 ../assets/views/cinda/page_push.php:44 .
+#: ./assets/views/cinda/page_push.php:69 ..
+#: assets/views/contribution/attributes_table.php:8 ..
+#: templates/app/contribution/edit.php:22 ../templates/app/contribution/view.php:
+#: 11 ../templates/app/contribution/create.php:21 ../library/CPT/Campaign.php:31
+msgid "Campaign"
+msgstr "Campaña"
+
+#: ../assets/views/cinda/page_push.php:39
+msgid "All Devices"
+msgstr "Todos los dispositivos"
+
+#: ../assets/views/cinda/page_push.php:47 ../assets/views/cinda/page_push.php:72
+msgid "Select campaign"
+msgstr "Seleccionar campaña"
+
+#: ../assets/views/cinda/page_push.php:61
+msgid "¿Related campaign?"
+msgstr "¿Campaña relacionada?"
+
+#: ../assets/views/cinda/page_push.php:86
+msgid "Send notification"
+msgstr "Enviar notificación"
+
+#: ../assets/views/cinda/page_export.php:20
+msgid "Campaign List"
+msgstr "Listado de campañas"
+
+#: ../assets/views/cinda/page_export.php:23 ../assets/views/cinda/page_export.php:
+#: 81
+msgid "Filename:"
+msgstr "Nombre de archivo:"
+
+#: ../assets/views/cinda/page_export.php:25 ../assets/views/cinda/page_export.php:
+#: 82
+msgid "(Optional)"
+msgstr "(Opcional)"
+
+#: ../assets/views/cinda/page_export.php:30
+msgid "Export:"
+msgstr "Exportar:"
+
+#: ../assets/views/cinda/page_export.php:32
+msgid "All"
+msgstr "Todo"
+
+#: ../assets/views/cinda/page_export.php:33
+msgid "Only actives"
+msgstr "Sólo activas"
+
+#: ../assets/views/cinda/page_export.php:34
+msgid "Between dates"
+msgstr "Entre fechas"
+
+#: ../assets/views/cinda/page_export.php:39
+msgid "Start date:"
+msgstr "Fecha inicio:"
+
+#: ../assets/views/cinda/page_export.php:45
+msgid "End date:"
+msgstr "Fecha final:"
+
+#: ../assets/views/cinda/page_export.php:52 ../assets/views/cinda/page_export.php:
+#: 95
+msgid "Export"
+msgstr "Exportar"
+
+#: ../assets/views/cinda/page_export.php:61
+msgid "Campaign's contributions"
+msgstr "Contribuciones de la campaña"
+
+#: ../assets/views/cinda/page_export.php:66
+msgid "Campaign:"
+msgstr "Campaña:"
+
+#: ../assets/views/cinda/page_tracking.php:6
+#, php-format
+msgid "Tracking for <strong>%s</strong> campaign"
+msgstr "Seguimiento para campaña <strong>%s</strong>"
+
+#: ../assets/views/cinda/page_tracking.php:7
+#, php-format
+msgid "By <strong>%s</strong> in <strong>%s</strong>"
+msgstr "Por <strong>%s</strong> en <strong>%s</strong>"
+
+#: ../assets/views/contribution/attributes_table.php:12 ../library/Cinda.php:299 .
+#: ./library/CPT/Volunteer.php:29
+msgid "Volunteer"
+msgstr "Voluntario"
+
+#: ../assets/views/contribution/attributes_table.php:132 ..
+#: assets/views/contribution/attributes_table.php:132
+msgid "View Tracking"
+msgstr "Ver Seguimiento"
+
+#: ../templates/single-campaign.php:49
+msgid "Volunteers subscribed"
+msgstr "Voluntarios suscritos"
+
+#: ../templates/single-campaign.php:55
+#, php-format
+msgid "%s Contribution"
+msgid_plural "%s Contributions"
+msgstr[0] "%s Contribucion"
+msgstr[1] "%s Contribuciones"
+
+#: ../templates/single-campaign.php:75
+msgid "View Contribution"
+msgstr "Ver Contribución"
+
+#: ../templates/app/header.php:24
+msgid "CINDA: Volunteers Network"
+msgstr "CINDA: Red de voluntariado"
+
+#: ../templates/app/header.php:26
+msgid "Home"
+msgstr "Inicio"
+
+#: ../templates/app/header.php:27
+msgid "Profile"
+msgstr "Perfíl"
+
+#: ../templates/app/header.php:28 ../templates/app/volunteer/profile.php:23
+msgid "Logout"
+msgstr "Salir"
+
+#: ../templates/app/volunteer/login.php:25
+msgid "Password"
+msgstr "Contraseña"
+
+#: ../templates/app/volunteer/login.php:30
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: ../templates/app/volunteer/login.php:33
+msgid "How I can receive the login credentials?"
+msgstr "¿Cómo puedo recibir las credenciales de acceso?"
+
+#: ../templates/app/volunteer/login.php:35
+#, php-format
+msgid "Download <a href=\"%s\">CINDA - Citizen Science</a> from Google Play"
+msgstr "Descarga <a href=\"%s\">CINDA - Citizen Science</a> desde Google Play"
+
+#: ../templates/app/volunteer/login.php:36
+msgid "Login in"
+msgstr "Inicia Sesión"
+
+#: ../templates/app/volunteer/login.php:37
+#, php-format
+msgid "Click on %s button"
+msgstr "Click en el botón %s"
+
+#: ../templates/app/volunteer/login.php:37
+msgid "Settings"
+msgstr "Opciones"
+
+#: ../templates/app/volunteer/login.php:37
+msgid "Screenshot 1"
+msgstr "Captura 1"
+
+#: ../templates/app/volunteer/login.php:38
+msgid "Click on \"Solicitar clave web\""
+msgstr "Click en \"Solicitar clave web\""
+
+#: ../templates/app/volunteer/login.php:38
+msgid "Screenshot 2"
+msgstr "Captura 2"
+
+#: ../templates/app/volunteer/login.php:39
+msgid "Click on \"Enviar solicitud de clave web\" button."
+msgstr "Click en el botón \"Enviar solicitud de clave web\"."
+
+#: ../templates/app/volunteer/login.php:40
+msgid "Check your email's inbox"
+msgstr "Comprueba la bandeja de entrada de tu correo electrónico."
+
+#: ../templates/app/volunteer/profile.php:20
+#, php-format
+msgid "%s contribution"
+msgid_plural "%s contributions"
+msgstr[0] "%s contribución"
+msgstr[1] "%s contribuciones"
+
+#. 'edit.php?post_type='. self::$name, 	// Parent slug
+#. Page title
+#: ../templates/app/volunteer/profile.php:30 ../templates/app/campaign/view.php:
+#: 47 ../library/CPT/Contribution.php:41 ../library/CPT/Contribution.php:46 ..
+#: library/CPT/Contribution.php:72 ../library/CPT/Contribution.php:73
+msgid "Contributions"
+msgstr "Contribuciones"
+
+#: ../templates/app/volunteer/profile.php:43 ../templates/app/campaign/view.php:
+#: 64 ../templates/app/campaign/view.php:88
+msgid "View"
+msgstr "Ver"
+
+#: ../templates/app/campaign/list.php:18
+#, php-format
+msgid "View campaign %s"
+msgstr "Ver campaña %s"
+
+#: ../templates/app/campaign/list.php:29
+msgid "View Campaign"
+msgstr "Ver campaña"
+
+#: ../templates/app/campaign/list.php:31 ../templates/app/campaign/view.php:39
+msgid "Unsuscribe"
+msgstr "Cancelar suscripción"
+
+#: ../templates/app/campaign/list.php:33 ../templates/app/campaign/view.php:41
+msgid "Suscribe"
+msgstr "Suscribirse"
+
+#: ../templates/app/campaign/view.php:25
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#: ../templates/app/campaign/view.php:30
+msgid "End Date"
+msgstr "Fecha de final"
+
+#: ../templates/app/campaign/view.php:36
+msgid "Send Contribution"
+msgstr "Enviar contribución"
+
+#: ../templates/app/campaign/view.php:49
+msgid "Own"
+msgstr "Propias"
+
+#: ../templates/app/campaign/view.php:50
+msgid "Others"
+msgstr "Otros"
+
+#: ../templates/app/campaign/view.php:73
+msgid "You have not published contributions yet"
+msgstr "No has publicado contribuciones aun"
+
+#: ../templates/app/campaign/view.php:97
+msgid "No contributions found"
+msgstr "No se encontraron contribuciones"
+
+#: ../templates/app/campaign/view.php:104 ../templates/app/contribution/view.php:34
+msgid "Actions"
+msgstr "Acciones"
+
+#: ../templates/app/campaign/view.php:106 ../templates/app/contribution/edit.php:
+#: 49 ../templates/app/contribution/view.php:36 ..
+#: templates/app/contribution/create.php:41
+msgid "Back"
+msgstr "Atrás"
+
+#: ../templates/app/contribution/edit.php:20 ../templates/app/contribution/view.
+#: php:9
+msgid "Contribution data"
+msgstr "Datos de la contribución"
+
+#: ../templates/app/contribution/edit.php:27 ../templates/app/contribution/view.
+#: php:16
+msgid "Created Date"
+msgstr "Fecha creación"
+
+#: ../templates/app/contribution/edit.php:32 ../templates/app/contribution/view.
+#: php:21
+msgid "Modified Date"
+msgstr "Fecha última modificacion"
+
+#: ../templates/app/contribution/edit.php:36 ../templates/app/contribution/view.
+#: php:25 ../templates/app/contribution/create.php:26
+msgid "Fields"
+msgstr "Campos"
+
+#: ../templates/app/contribution/edit.php:40
+msgid "Field required"
+msgstr "Campo obligatorio"
+
+#: ../templates/app/contribution/edit.php:50 ../templates/app/contribution/create.
+#: php:42
+msgid "Save"
+msgstr "Guardar"
+
+#: ../templates/app/contribution/create.php:19 ../library/CPT/Contribution.php:43
+msgid "New Contribution"
+msgstr "Nueva Contribución"
+
+#: ../library/Cinda.php:340 ../library/Cinda.php:341
+msgid "About CINDA"
+msgstr "Sobre CINDA"
+
+#: ../library/Cinda.php:349 ../library/Cinda.php:350 ../library/global.php:32
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../library/Cinda.php:358 ../library/Cinda.php:359
+msgid "CSV Export"
+msgstr "Exportar CSV"
+
+#: ../library/global.php:318
+msgid "Imposible send push, before configure PARSE parameters."
+msgstr "Imposible enviar notificación, primer configure los parámetros PARSE."
+
+#: ../library/CPT/Contribution.php:42
+msgid "Contribution"
+msgstr "Contribución"
+
+#: ../library/CPT/Contribution.php:44
+msgid "Add new contribution"
+msgstr "Añadir nueva Contribución"
+
+#: ../library/CPT/Contribution.php:121
+msgid "Contribution Data"
+msgstr "Información de la contribución"
+
+#. 'edit.php?post_type='. self::$name, 	// Parent slug
+#. Page title
+#: ../library/CPT/Volunteer.php:28 ../library/CPT/Volunteer.php:97 ..
+#: library/CPT/Volunteer.php:98
+msgid "Volunteers"
+msgstr "Voluntarios"
+
+#: ../library/CPT/Volunteer.php:30
+msgid "New Volunteer"
+msgstr "Nuevo Voluntario"
+
+#: ../library/CPT/Volunteer.php:31
+msgid "Add new Volunteer"
+msgstr "Añadir nuevo Voluntario"
+
+#: ../library/CPT/Volunteer.php:77
+msgid "Profile Data"
+msgstr "Información de perfíl"
+
+#: ../library/CPT/Dictionary.php:30 ../library/CPT/Dictionary.php:89 ..
+#: library/CPT/Dictionary.php:90
+msgid "Dictionaries"
+msgstr "Diccionarios"
+
+#: ../library/CPT/Dictionary.php:32
+msgid "New Dictionary"
+msgstr "Nuevo Diccionario"
+
+#: ../library/CPT/Dictionary.php:33
+msgid "Add new Dictionary"
+msgstr "Añadir nuevo Diccionario"
+
+#: ../library/CPT/Dictionary.php:63
+msgid "Terms imported"
+msgstr "Términos importados"
+
+#: ../library/CPT/Dictionary.php:65
+msgid "Import terms from CSV"
+msgstr "Importar términos desde CSV"
+
+#. 'edit.php?post_type='. self::$name, 	// Parent slug
+#. Page title
+#: ../library/CPT/Campaign.php:30 ../library/CPT/Campaign.php:144 ..
+#: library/CPT/Campaign.php:145
+msgid "Campaigns"
+msgstr "Campañas"
+
+#: ../library/CPT/Campaign.php:32
+msgid "New Campaign"
+msgstr "Nueva Campaña"
+
+#: ../library/CPT/Campaign.php:33
+msgid "Add new Campaign"
+msgstr "Añadir nueva campaña"
+
+#: ../library/CPT/Campaign.php:88
+msgid "Data-form model"
+msgstr "Modelo de datos"
+
+#: ../library/CPT/Campaign.php:89
+#, php-format
+msgid "%s Contributions"
+msgstr "%s Contribuciones"
+
+#: ../library/CPT/Campaign.php:93
+msgid "Campaign Data"
+msgstr "Datos de la campaña"
+
+#: ../library/CPT/Campaign.php:180
+#, php-format
+msgid "Campaign updated. <a href=\"%s\">View</a>"
+msgstr "Campaña actualizada. <a href=\"%s\">Ver</a>"
+
+#: ../library/CPT/Campaign.php:181
+msgid "Custom data model updated."
+msgstr "Modelo de datos actualizado."
+
+#: ../library/CPT/Campaign.php:182
+msgid "Custom data model deleted."
+msgstr "Modelo de datos eliminado."
+
+#: ../library/CPT/Campaign.php:183
+msgid "Campaign updated."
+msgstr "Campaña actualizada."
+
+#. translators: %s: date and time of the revision
+#: ../library/CPT/Campaign.php:185
+#, php-format
+msgid "Campaign restored to revision from %s"
+msgstr "Campaña restaurada a la revision del %s"
+
+#: ../library/CPT/Campaign.php:186
+#, php-format
+msgid "Campaign published. <a href=\"%s\">View campaign</a>"
+msgstr "Campaña publicada. <a href=\"%s\">Ver campaña</a>"
+
+#: ../library/CPT/Campaign.php:187
+msgid "Campaign saved."
+msgstr "Campaña guardada."
+
+#: ../library/CPT/Campaign.php:188
+#, php-format
+msgid "Campaign submitted. <a target=\"_blank\" href=\"%s\">Preview Campaign</a>"
+msgstr "Campaña enviada. <a target=\"_blank\" href=\"%s\">Previsualizar</a>"
+
+#: ../library/CPT/Campaign.php:189
+#, php-format
+msgid ""
+"Campaign scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview Campaign</a>"
+msgstr ""
+"Campaña programada para: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Previsualizar</a>"
+
+#. translators: Publish box date format, see http://php.net/date
+#: ../library/CPT/Campaign.php:191
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: ../library/CPT/Campaign.php:192
+#, php-format
+msgid "Campaign draft updated. <a target=\"_blank\" href=\"%s\">Preview Campaign</a>"
+msgstr ""
+"Borrador de campaña actulizado. <a target=\"_blank\" "
+"href=\"%s\">Previsualizar</a>"
+
+#: ../library/CPT/Campaign.php:347
+#, php-format
+msgid "Fields updated: %b.<br />Fields inserted: %b.<br />Fields not saved: %b"
+msgstr ""
+"Campos actualizados: %b.<br />Campos insertados: %b.<br />Campos no "
+"guardados: %b"
+
+#: ../library/API/Contribution.php:73
+msgid "unknown"
+msgstr "desconocido"
+
+#: ../library/API/Contribution.php:209 ../library/API/Contribution.php:217
+msgid "Description not available"
+msgstr "Descripción no disponible"
+
+#: ../library/API/Contribution.php:242
+msgid "No token send"
+msgstr "No se ha enviado token"
+
+#: ../library/API/Contribution.php:259
+msgid "Nonce not valid."
+msgstr "Fallo de verificación"
+
+#: ../library/API/Contribution.php:284
+msgid "ID must be numeric."
+msgstr "ID debe ser numérico"
+
+#: ../library/API/Contribution.php:289
+msgid "Contribution not exists."
+msgstr "La contribución no existe."
+
+#: ../library/API/Contribution.php:296
+msgid "Authors not match"
+msgstr "Los autores no coinciden"
+
+#: ../library/API/Contribution.php:307
+msgid "for"
+msgstr "para"
+
+#: ../library/API/Contribution.php:307
+msgid "on"
+msgstr "en"
+
+#: ../library/API/Contribution.php:324
+#, php-format
+msgid "New contribution for: %s"
+msgstr "Nueva contribución para: %s"
+
+#: ../library/API/Contribution.php:325
+#, php-format
+msgid "The volunteer \"%s\" has sent a new contribution for: %s"
+msgstr "El voluntario \"%s\" ha enviado una nueva contribución para: %s"
+
+#: ../library/API/Contribution.php:384
+msgid "Image not sent"
+msgstr "Imagen no enviada"
+
+#: ../library/API/Contribution.php:401
+msgid "Campaign not found"
+msgstr "Campaña no encontrada"
+
+#: ../library/API/Contribution.php:406
+msgid "Volunteer not found"
+msgstr "Voluntario no encontrado"
+
+#: ../library/API/Contribution.php:413
+msgid "No data sent"
+msgstr "No se enviaron datos."
+
+#: ../library/API/Volunteer.php:567
+#, php-format
+msgid "Your credential to access at CINDA in the server %s"
+msgstr "Tu clave de acceso web CINDA para el servidor %s"
+
+#: ../library/API/Volunteer.php:570
+#, php-format
+msgid "Here you have your credentials to access at CINDA in the server %s"
+msgstr "Aquí tienes los datos para acceder a CINDA en el servidor %s"
+
+#: ../library/API/Volunteer.php:571
+#, php-format
+msgid "URL: %s"
+msgstr "URL: %s"
+
+#: ../library/API/Volunteer.php:572
+#, php-format
+msgid "Email: %s"
+msgstr "Correo electrónico: %s"
+
+#: ../library/API/Volunteer.php:573
+#, php-format
+msgid "Password: %s"
+msgstr "Contraseña: %s"
+
+#. Description of the plugin
+msgid "Manage all endpoint of plugin."
+msgstr "Gestionar todos los 'endpoint' (urls) del plugin."
+
+#: ../library/APP/CindaApp.php:67
+msgid "CINDA: Volunteers Networks APP"
+msgstr "CINDA: Red de voluntariado APP"
+
+#: ../library/APP/CindaApp.php:174
+msgid "Campaigns List"
+msgstr "Listado de campañas"
+
+#: ../library/APP/CindaApp.php:191
+msgid "404 Not Found"
+msgstr "404 No encontrado"
+
+#: ../library/APP/functions.php:27
+msgid "Donwload"
+msgstr "Descargar"
+
+#: ../library/APP/functions.php:116
+msgid "Replace"
+msgstr "Reemplazar"
+
+#: ../library/APP/functions.php:183
+msgid "No terms found"
+msgstr "No se encontraron términos"

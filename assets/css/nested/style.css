@@ -1,0 +1,86 @@
+.cinda-campaign-cover {
+  margin: 0;
+  min-height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative; }
+
+.cinda-campaign-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: attr(data-color);
+  opacity: 0.5; }
+
+.cinda-campaign-image {
+  width: 150px;
+  float: left;
+  margin: 50px 25px;
+  position: relative;
+  bottom: 0; }
+  .cinda-campaign-image img {
+    width: 100%; }
+
+.cinda-campaign-title {
+  position: relative;
+  bottom: 0;
+  width: calc(100% - 200px);
+  margin: 50px 0;
+  font-size: 40px;
+  color: #FFF;
+  float: right;
+  clear: none; }
+
+.cinda-campaign-description,
+.cinda-campaign-data,
+.cinda-contributions {
+  padding: 25px; }
+
+.cinda-campaign-data tr th {
+  width: 33%;
+  float: left;
+  font-weight: bold; }
+
+.cinda-campaign-data tr td {
+  width: 67%;
+  float: left; }
+
+.cinda-contributions .cinda-contribution {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc; }
+  .cinda-contributions .cinda-contribution h3 {
+    float: left;
+    margin: 0;
+    margin-right: 10px; }
+  .cinda-contributions .cinda-contribution .cinda-contribution-data,
+  .cinda-contributions .cinda-contribution .cinda-contribution-description {
+    width: 85%;
+    float: right; }
+  .cinda-contributions .cinda-contribution .cinda-contribution-image {
+    width: 15%;
+    float: left; }
+    .cinda-contributions .cinda-contribution .cinda-contribution-image img {
+      width: 80%;
+      max-width: 100px;
+      margin: 0 10%;
+      border-radius: 50%; }
+  .cinda-contributions .cinda-contribution .cinda-contribution-date {
+    font-size: 0.8em; }
+  .cinda-contributions .cinda-contribution .cinda-contribution-actions {
+    margin: 15px 0;
+    float: right;
+    width: 85%; }
+
+.cinda .btn {
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  border: 2px solid #333;
+  text-transform: uppercase; }
+  .cinda .btn:hover {
+    background: #333;
+    color: #FFF; }

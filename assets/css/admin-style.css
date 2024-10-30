@@ -1,0 +1,372 @@
+/*
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+*/
+.optional{
+	font-size:12px;
+	color: green;
+	font-style: italic;
+}
+.post-type-cinda_campaign .postbox table{}
+table th{
+	font-weight: bold !important;
+}
+.post-type-cinda_campaign .postbox table > tbody > tr > td:nth-child(1) input{
+    width: 90%;
+    text-align: center;
+    margin: 0 5%;
+}
+.post-type-cinda_campaign .postbox table > thead > tr{
+    transition: all 1s;
+}
+.post-type-cinda_campaign .postbox table > thead > tr > th:last-child,
+.post-type-cinda_campaign .postbox table > tbody > tr > td:last-child{
+    text-align: right;
+}
+.post-type-cinda_campaign .postbox table > tr > th:nth-child(1){
+    width: 50px !important;
+}
+.post-type-cinda_campaign .postbox table#model > thead > tr > th:nth-child(5),
+.post-type-cinda_campaign .postbox table#model > tbody > tr > td:nth-child(5){
+    width: 30%;
+}
+.post-type-cinda_campaign .postbox table#model > thead > tr > th:nth-child(1),
+.post-type-cinda_campaign .postbox table#model > tbody > tr > td:nth-child(1),
+.post-type-cinda_campaign .postbox table#contributions > thead > tr > th:nth-child(1),
+.post-type-cinda_campaign .postbox table#contributions > tbody > tr > th:nth-child(1)
+{
+    text-align: center;
+    width: 30px;
+}
+.post-type-cinda_campaign .postbox table > tbody > tr > td input[type=text],
+.post-type-cinda_campaign .postbox table > tbody > tr > td input[type=date],
+.post-type-cinda_campaign .postbox table > tbody > tr > td input[type=number],
+.post-type-cinda_campaign .postbox table > tbody > tr > td input[type=email],
+.post-type-cinda_campaign .postbox table > tbody > tr > td input[type=tel],
+.post-type-cinda_campaign .postbox table > tbody > tr > td select,
+.post-type-cinda_campaign .postbox table > tbody > tr > td textarea,
+.post-type-cinda_contribution .postbox table > tbody > tr > td input[type=text],
+.post-type-cinda_contribution .postbox table > tbody > tr > td input[type=date],
+.post-type-cinda_contribution .postbox table > tbody > tr > td input[type=number],
+.post-type-cinda_contribution .postbox table > tbody > tr > td input[type=email],
+.post-type-cinda_contribution .postbox table > tbody > tr > td input[type=tel],
+.post-type-cinda_contribution .postbox table > tbody > tr > td select,
+.post-type-cinda_contribution .postbox table > tbody > tr > td textarea
+{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    width: 100%;
+    max-width: 100%;
+}
+.post-type-cinda_campaign .postbox table > tbody > tr > td textarea,
+.post-type-cinda_contribution .postbox table > tbody > tr > td textarea{
+    height: auto;
+    min-height: 200px;
+}
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edit,
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edit > th,
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edit > td{
+    background-color: azure;
+    border-bottom: 1px solid #EEE;
+}
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edited,
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edited > th,
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edited > td{
+    border-bottom: 1px solid #EEE;
+    background-color: #c1f1d6;
+}
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edit > th:last-child,
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edit > td:last-child{
+    border: none;
+}
+.post-type-cinda_campaign .postbox table#model > tbody > tr > .field_label > label{
+    font-weight: bold;
+}
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edit > .field_name,
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edit > .field_type,
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edit > .field_description,
+.post-type-cinda_campaign .postbox table#model > tbody > tr.edit > .field_buttons{
+    display: none;
+}
+.post-type-cinda_campaign .postbox table#model > tbody > tr > td > .field_form{
+    display: none;
+    width: 100%;
+    max-width: 500px;
+}
+.post-type-cinda_campaign .postbox table.field > tbody > tr.options,
+.post-type-cinda_campaign .postbox table.field > tbody > tr.dictionaries{
+    display: none;
+}
+.post-type-cinda_campaign .postbox table.field > thead > tr > th:first-child{
+    width: 30%;
+}
+.post-type-cinda_campaign .postbox table.field > tbody > tr > td,
+.post-type-cinda_campaign .postbox table.field > thead > tr > th{
+    line-height: normal;
+    text-align: left;
+}
+.post-type-cinda_campaign .postbox table.field > tbody > tr > td > span{
+    font-size: 10px;
+    color: #555;
+}
+.post-type-cinda_campaign .postbox table.field > tbody > tr > td > span.error{
+    color: #F00;
+}
+.post-type-cinda_campaign .postbox table.field > tbody > tr:last-child > td{
+    text-align: right;
+    border-top: 1px solid #DDD;
+}
+.post-type-cinda_campaign .postbox table > tbody > tr > td select{
+    margin-top: -3px;
+}
+.post-type-cinda_campaign .postbox table > thead > tr > th{
+    color: #FFF !important;
+}
+.post-type-cinda_campaign .postbox table > thead > tr:nth-child(1),
+.post-type-cinda_dictionary .postbox table thead > tr,
+.post-type-cinda_volunteer .postbox table thead > tr{
+    background: #00a0d2 !important;
+}
+.post-type-cinda_volunteer .postbox table thead tr th{
+    color: #FFF;
+}
+.post-type-cinda_campaign .postbox table tr td{
+    line-height:40px;
+    padding: 10px;
+}
+.post-type-cinda_campaign .postbox table tbody tr:nth-child(odd),
+.post-type-cinda_contribution .postbox table tbody tr:nth-child(odd),
+.post-type-cinda_volunteer .postbox table tbody tr:nth-child(odd),
+.post-type-cinda_dictionary .postbox table tbody tr:nth-child(odd),
+.post-type-cinda_volunteer .postbox table tbody tr:nth-child(odd){
+    background: #EEE;
+}
+.post-type-cinda_campaign .postbox .row{
+    margin: 10px 0;
+    padding: 10px;
+}
+.post-type-cinda_campaign .postbox .row button{
+    padding: 0px 15px;
+    height: 40px;
+    margin: 0 5px;
+}
+.post-type-cinda_campaign .postbox .inside button, 
+.button-export{
+    height: 30px;
+    background: #00a0d2;
+    border: 1px solid #0073aa;
+    border-radius: 2px;
+    padding: 0 10px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.post-type-cinda_campaign .postbox .inside button:hover, 
+.button-export{
+    background: #00c0ed;
+    border-color: #00a0d2;
+}
+.post-type-cinda_campaign .postbox button.save{
+    background: #39b54a;
+    border-color: #009245;
+}
+.post-type-cinda_campaign .postbox button.save:hover{
+    background: #34ce42;
+    border-color: #39b54a;
+}
+.post-type-cinda_campaign .postbox button.saving{
+    background: #EEE;
+    color: #666;
+    border-color: #666;
+}
+.post-type-cinda_campaign .postbox button.delete{
+    background: #ed1c24;
+    border-color: #ce0514;
+}
+.post-type-cinda_campaign .postbox button.delete:hover{
+    background: #f91021;
+    border-color: #ed1c24;
+}
+.post-type-cinda_campaign .postbox button.delete i{
+    margin: 0;
+}
+.post-type-cinda_campaign .postbox button i{
+    font-size: 1.2em;
+    margin: 0 10px 0 0;
+}
+.post-type-cinda_campaign .postbox .field_buttons button i{
+    margin: 0;
+}
+.post-type-cinda_campaign .postbox a.discard{
+    color: #F00;
+    margin-right: 10px;
+}
+.post-type-cinda_campaign .postbox .text-right{
+    text-align: right !important;
+}
+.post-type-cinda_campaign .postbox .text-center{
+    text-align: center !important;
+}
+.post-type-cinda_campaign .postbox *:disabled{
+    cursor: no-drop;
+}
+.post-type-cinda_campaign i.icon-check,
+.post-type-cinda_campaign i.icon-nocheck{
+    color: #CCC;
+    width: 12px;
+    height: 12px;
+    font-size: 10px;
+    line-height: 12px;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    padding: 2px;
+    display: inline-block;
+}
+.post-type-cinda_campaign i.icon-check:before {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+}
+.post-type-cinda_campaign  i.icon-check{
+    color: #4F7A2D;
+    border-color: #4F7A2D;
+}
+.post-type-cinda_campaign button:disabled{
+    background: #ccc  !important;
+    border-color: #DDD !important;
+}
+span.required{
+    color: #F00 !important;
+    font-weight: bold;
+}
+.field_position{
+    cursor: row-resize;
+}
+.field_description label{
+    font-size: 13px;
+    line-height: 17px;
+    display: block;
+    padding: 15px 0;
+}
+div.description{
+    font-size: 10px;
+    color: #666;
+    margin: 5px 0;
+    padding: 2px 5px;
+    border: 1px solid #DDD;
+    background: rgba(254,255,230,0.2);
+    font-style: italic;
+}
+div.description:before{
+    font-style: normal;
+    font-family: 'FontAwesome';
+    content: "\f059";
+    color: #FFC400;
+    margin: 0 5px 0 0;
+}
+img.image-table{
+    max-width: 200px;
+    max-height: 200px;
+    border: 3px solid #FFF;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+.tabla .wp-picker-container{
+	float: left;
+}
+.tracking #map,
+.tabla #map,
+.tabla .map{
+	width:100%;
+	height:300px;
+}
+.tracking #map{
+    height: 600px;
+}
+
+.tabla{
+    margin: 10px 0;
+}
+.tabla + .tabla{
+    margin-top: 30px;
+}
+.tabla td span{
+    line-height: 12px;
+    font-size: 0.8em;
+    display: inline-block;
+    font-style: oblique;
+    font-weight: 800;
+}
+.tabla tbody tr th.first-child,
+.tabla tbody tr td.first-child{
+    width: 20% !important;
+    max-width: 20%;
+}
+.tabla thead h2{
+    text-align: center;
+    margin: 0 !important;
+    color: #FFF;
+}
+.tabla thead tr th{
+    color: #FFF;
+}
+.page-content{
+	margin: 15px;
+}
+.switch{
+    margin-top: 15px;
+}
+.switch-button-button{
+    margin-top: 0;
+}
+.switch-button-background{
+	transition: 0.5s all;
+}
+.switch-button-label.on + .switch-button-background{
+	background:#e66a6a;
+}
+.switch-button-label.off + .switch-button-background{
+	background:#72d16d;
+}
+table.parse input#title{
+    width: 100%;
+    font-size: 1.3em;
+}
+table textarea{
+    width: 100%;
+    min-height: 200px;
+    line-height: 1.4em !important;
+}
+.select2{
+    width: 100% !important;
+}
+.fa.fa-paper-plane{
+    margin-right: 10px;
+}
+.brands{
+    width: calc(100% - 20px);
+    text-align: center;
+    padding:10px;
+    background-color: #FFF; 
+    box-sizing:border-box;
+}
+.brands img{
+    margin: 0 20px;
+}
+.update-nag{display: none;}

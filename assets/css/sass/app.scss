@@ -1,0 +1,328 @@
+// compileCompressed: ../app.min.css, compileExpanded: ../expanded/app.css, compileNested: ../nested/app.css
+
+@import '../../vendors/foundation6/css/foundation-flex.css';
+@import '../../vendors/foundation6/css/foundation-rtl.css';
+@import '../../vendors/foundation6/css/foundation.min.css';
+@import '../../vendors/font-awesome/css/font-awesome.min.css';
+
+@import 'variables';
+
+body{
+  background: #f1f1f1;
+  font-size: 14px;
+}
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.9em;
+}
+span.required{
+  color: #F00;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: help;
+}
+
+#header{
+  position: relative;
+  width: 100%;
+  .logo{
+    float: left;
+    width: 30px;
+  }
+  .actions{
+    float: right;
+    a{
+      color: #333;
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 50%;
+
+      &:hover{
+        background: #EEE;
+      }
+    }
+  }
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+hr{
+  border-bottom: $border-separator;
+}
+.box{
+  background: #FFF;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.05);
+}
+.date{
+  font-size: 0.9em;
+  line-height: 1em;
+  color: #666;
+}
+.tabs-content{
+  float: left;
+  width: 100%;
+  display: block;
+}
+.tabs-title{
+  text-align: center;
+}
+.button{
+  margin: 5px;
+
+  /*&:first-child{
+    margin-left: 0;
+  }*/
+
+  i.fa{
+    font-size: 1.2em;
+  }
+}
+.map{
+  min-height: 350px;
+  background: #CCC;
+}
+.field{
+  padding: 10px 0;
+  float: left;
+  width: 100%;
+  border-bottom: $border-separator;
+}
+#login{
+  margin: 50px;
+
+  .field{
+    &:first-child{
+      margin-top: 0;
+    }
+  }
+  .button{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+form#edit{
+
+  input[type=file]{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+.avatar{
+  width: 100%;
+  border-radius: 50%;
+}
+
+#login{
+
+  .logo{
+    text-align: center;
+  }
+
+  h2{
+    letter-spacing: -1px;
+    color: #444;
+    font-size: 22px;
+  }
+
+  ol{
+    li{
+      margin: 10px 0;
+      color: #666;
+    }
+  }
+
+}
+
+.campaign{
+
+  border: 1px solid #EEE;
+  margin: 10px 0;
+
+  &:nth-child(odd){
+    background: #FBFBFB;
+  }
+
+  &:first-child{
+    margin-top: 0;
+  }
+
+
+  header{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &:before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,0.5);
+    }
+    .content{
+      position: relative;
+      display: table;
+      width: 100%;
+      min-height: 100px;
+
+      h2{
+        padding: 0 20px;
+        color: #FFF;
+        font-size: 20px;
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+
+  }
+
+  > div{
+    padding: 10px;
+  }
+
+  header{
+    padding: 30px 0;
+
+    margin: 0 0 20px 0;
+    color: #ccc;
+    text-align: center;
+    position: relative;
+    background-color: #111;
+    background-size: cover;
+
+    .go{
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      position: absolute;
+      right: 20px;
+      bottom: -20px;
+      border-radius: 50%;
+      box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+      background: #444;
+      color: #FFF;
+      font-size: 28px;
+      i{
+        margin-left: 2px;
+      }
+    }
+    .volunteers-top{
+      position: absolute;
+      left: 20px;
+      bottom: -20px;
+      height: 40px;
+      width: auto;
+
+      .item{
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: 5px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+
+        &.volunteer{
+          img{
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 50%;
+          }
+        }
+
+        &.more{
+          background: #E22;
+          letter-spacing: -2px;
+          color: #FFF;
+          font-size: 20px;
+          text-align: center;
+          line-height: 40px;
+        }
+
+      }
+    }
+  }
+
+  .actions{
+    text-align: center;
+  }
+}
+#campaigns{
+
+}
+
+#profile{
+
+  header{
+    padding: 30px 0;
+
+    margin: 0 0 20px 0;
+    color: #ccc;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+    .image{
+      content: '';
+      width: 110%;
+      height: 140%;
+      position: absolute;
+      z-index: 0;
+      left: -5%;
+      top: -20%;
+      -webkit-filter: blur(8px);
+      -moz-filter: blur(8px);
+      -o-filter: blur(8px);
+      -ms-filter: blur(8px);
+      filter: blur(8px);
+      background-color: #111;
+      background-size: cover;
+    }
+    .content{
+      z-index: 1;
+      position: relative;
+    }
+  }
+}
+
+
+.contributions{
+  float: left;
+  width: 100%;
+
+  .contribution{
+    padding: 20px 0;
+    float: left;
+    width: 100%;
+    border-bottom: $border-separator;
+
+    &:last-child{
+      border-bottom: none;
+    }
+
+    h2{
+      font-size: 1.5em;
+      font-weight: normal;
+      line-height: 1.2em;
+      margin: 0;
+
+    }
+  }
+}

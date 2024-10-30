@@ -1,0 +1,1010 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CINDA: Volunteers Networks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Apr 06 2016 13:59:30 GMT+0200 (Hora de verano "
+"romance)\n"
+"POT-Revision-Date: Thu Aug 04 2016 12:43:21 GMT+0200 (CEST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "CINDA: Volunteers Networks"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.cinda.science"
+msgstr ""
+
+#. Description of the plugin
+msgid "Gestión de campañas para acciones de voluntariado."
+msgstr ""
+
+#. Author of the plugin
+msgid "SI2 Pequeñas y Grandes Soluciones"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://si2.info"
+msgstr ""
+
+#: ../init.php:65 ../assets/views/campaign/contributions_table.php:10
+msgid "Date"
+msgstr ""
+
+#: ../init.php:66
+msgid "Date and Time"
+msgstr ""
+
+#: ../init.php:67
+msgid "Description Text"
+msgstr ""
+
+#: ../init.php:68 ../assets/views/campaign/field_table.php:66 ..
+#: /library/CPT/Dictionary.php:31 ../library/CPT/Dictionary.php:35
+msgid "Dictionary"
+msgstr ""
+
+#: ../init.php:69
+msgid "File"
+msgstr ""
+
+#: ../init.php:70
+msgid "Geoposition"
+msgstr ""
+
+#: ../init.php:71
+msgid "Number"
+msgstr ""
+
+#: ../init.php:72
+msgid "Image"
+msgstr ""
+
+#: ../init.php:73
+msgid "Selection"
+msgstr ""
+
+#: ../init.php:74
+msgid "Input Text"
+msgstr ""
+
+#: ../init.php:75
+msgid "Text Area"
+msgstr ""
+
+#: ../assets/views/volunteer/profile_data_table.php:8
+msgid "Field"
+msgstr ""
+
+#: ../assets/views/volunteer/profile_data_table.php:9
+msgid "Value"
+msgstr ""
+
+#: ../assets/views/volunteer/profile_data_table.php:14
+msgid "Nickname"
+msgstr ""
+
+#: ../assets/views/volunteer/profile_data_table.php:18 ..
+#: /templates/app/volunteer/login.php:19
+msgid "Email"
+msgstr ""
+
+#: ../assets/views/volunteer/profile_data_table.php:22
+msgid "Device ID"
+msgstr ""
+
+#: ../assets/views/volunteer/profile_data_table.php:26
+msgid "Avatar"
+msgstr ""
+
+#: ../assets/views/volunteer/profile_data_table.php:31
+msgid "Wordpress user"
+msgstr ""
+
+#: ../assets/views/volunteer/profile_data_table.php:34
+msgid "Choose an option"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:8
+msgid "Logo Image"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:16 ..
+#: /assets/views/campaign/attributes_table.php:28 ../library/APP/functions.php:118
+msgid "Select Image"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:20
+msgid "Cover Image"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:32 ../templates/single-campaign.
+#: php:34
+msgid "Start date"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:36 ../templates/single-campaign.
+#: php:39
+msgid "End date"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:40 ../templates/single-campaign.
+#: php:44
+msgid "Geographical Scope"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:44
+msgid "Geolocalization"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:51
+msgid "Radium (Kms)"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:55
+msgid "Color"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:59 ../library/Cinda.php:376 ..
+#: /library/Cinda.php:377
+msgid "Tracking"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:61 ..
+#: /assets/views/cinda/page_options.php:100 ../assets/views/cinda/page_push.php:63
+msgid "Yes"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:62 ..
+#: /assets/views/cinda/page_options.php:101 ../assets/views/cinda/page_push.php:64
+msgid "No"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:66
+msgid "Administrator email"
+msgstr ""
+
+#: ../assets/views/campaign/attributes_table.php:69
+msgid ""
+"(Optional) In this field, you can specify the administrator email acount to "
+"send notifications about the campaign (New contributions, etc.)."
+msgstr ""
+
+#: ../assets/views/campaign/contributions_table.php:8
+msgid "ID"
+msgstr ""
+
+#: ../assets/views/campaign/contributions_table.php:9
+msgid "Author"
+msgstr ""
+
+#: ../assets/views/campaign/contributions_table.php:11 ..
+#: /assets/views/campaign/model_table.php:22 ../templates/app/contribution/view.
+#: php:39
+msgid "Edit"
+msgstr ""
+
+#: ../assets/views/campaign/contributions_table.php:34
+msgid "No contributions found."
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:26
+msgid "Position"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:33 ..
+#: /assets/views/campaign/model_table.php:18
+msgid "Label"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:40 ..
+#: /assets/views/campaign/model_table.php:19 ../assets/views/cinda/page_export.
+#: php:25 ../assets/views/cinda/page_export.php:82
+msgid "Name"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:42
+msgid "This field is automatically filled"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:47
+msgid "Required"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:54
+msgid "Type"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:57 ..
+#: /assets/views/dictionary/csv_table.php:14
+msgid "Select"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:69
+msgid "Select a dictionary"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:81 ..
+#: /assets/views/campaign/model_table.php:21 ../templates/single-campaign.php:29
+msgid "Description"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:88
+msgid "Options"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:90
+msgid "Option 1 | Option 2 | ..."
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:91
+msgid "Separate the options with |"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:97
+msgid "Reset"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:97
+msgid "Cancel"
+msgstr ""
+
+#: ../assets/views/campaign/field_table.php:98
+msgid "Accept"
+msgstr ""
+
+#: ../assets/views/campaign/new_field.php:12
+msgid "New Field"
+msgstr ""
+
+#: ../assets/views/campaign/model_table.php:10 ..
+#: /assets/views/campaign/model_table.php:87
+msgid "Add new field"
+msgstr ""
+
+#: ../assets/views/campaign/model_table.php:17
+msgid "Pos"
+msgstr ""
+
+#: ../assets/views/campaign/model_table.php:20
+msgid "Field Type"
+msgstr ""
+
+#: ../assets/views/campaign/model_table.php:77
+msgid "No fields yet."
+msgstr ""
+
+#: ../assets/views/campaign/model_table.php:78
+msgid "Add new"
+msgstr ""
+
+#: ../assets/views/campaign/model_table.php:91
+msgid "Discard All Changes"
+msgstr ""
+
+#: ../assets/views/campaign/model_table.php:93
+msgid "Save All Changes"
+msgstr ""
+
+#: ../assets/views/dictionary/csv_table.php:8
+msgid "CSV File:"
+msgstr ""
+
+#: ../assets/views/dictionary/csv_table.php:18
+msgid "CSV Encoding:"
+msgstr ""
+
+#: ../assets/views/dictionary/csv_table.php:22
+msgid "CSV Format:"
+msgstr ""
+
+#: ../assets/views/dictionary/csv_table.php:23
+msgid "Term name"
+msgstr ""
+
+#: ../assets/views/dictionary/csv_table.php:23
+msgid "Term long description"
+msgstr ""
+
+#: ../assets/views/dictionary/code_table.php:8 ..
+#: /assets/views/dictionary/terms_table.php:40
+msgid "Code:"
+msgstr ""
+
+#: ../assets/views/dictionary/terms_table.php:15
+msgid "File Imported:"
+msgstr ""
+
+#: ../assets/views/dictionary/terms_table.php:20 ..
+#: /assets/views/dictionary/terms_table.php:41
+msgid "Name:"
+msgstr ""
+
+#: ../assets/views/dictionary/terms_table.php:24
+msgid "Upload at:"
+msgstr ""
+
+#: ../assets/views/dictionary/terms_table.php:28
+msgid "File:"
+msgstr ""
+
+#: ../assets/views/dictionary/terms_table.php:29
+msgid "Download"
+msgstr ""
+
+#: ../assets/views/dictionary/terms_table.php:36
+msgid "Terms:"
+msgstr ""
+
+#: ../assets/views/dictionary/terms_table.php:42
+msgid "Description:"
+msgstr ""
+
+#: ../assets/views/dictionary/terms_table.php:58
+msgid "Doesn´t has imported csv file yet"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:9
+msgid "Options updated."
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:16
+msgid "Plugin configuration."
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:28
+msgid "General options:"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:34
+msgid "Server Name"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:38
+msgid "Server Description"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:42
+msgid "Public URL"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:48
+msgid "Google Maps options:"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:52
+msgid "API KEY"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:58
+msgid "Notification options:"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:62
+msgid "Platform"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:71
+msgid "URL"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:76
+msgid "Application Id"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:81
+msgid "REST API Key"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:86
+msgid "Client API Key"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:93
+msgid "Others options:"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:97
+msgid "Use WordPress Users"
+msgstr ""
+
+#: ../assets/views/cinda/page_options.php:107
+msgid "Save changes"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:5 ../library/Cinda.php:367 ..
+#: /library/Cinda.php:368
+msgid "Notifications"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:15
+msgid "Parse"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:18
+msgid "Title"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:20
+msgid "Write your custom title"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:25
+msgid "Text / Message"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:36
+msgid "Send to"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:38 ../assets/views/cinda/page_push.php:44 .
+#: ./assets/views/cinda/page_push.php:69 ..
+#: /assets/views/contribution/attributes_table.php:8 ..
+#: /templates/app/contribution/edit.php:22 ../templates/app/contribution/view.php:
+#: 11 ../templates/app/contribution/create.php:21 ../library/CPT/Campaign.php:31
+msgid "Campaign"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:39
+msgid "All Devices"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:47 ../assets/views/cinda/page_push.php:72
+msgid "Select campaign"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:61
+msgid "¿Related campaign?"
+msgstr ""
+
+#: ../assets/views/cinda/page_push.php:86
+msgid "Send notification"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:20
+msgid "Campaign List"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:23 ../assets/views/cinda/page_export.php:
+#: 81
+msgid "Filename:"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:25 ../assets/views/cinda/page_export.php:
+#: 82
+msgid "(Optional)"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:30
+msgid "Export:"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:32
+msgid "All"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:33
+msgid "Only actives"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:34
+msgid "Between dates"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:39
+msgid "Start date:"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:45
+msgid "End date:"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:52 ../assets/views/cinda/page_export.php:
+#: 95
+msgid "Export"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:61
+msgid "Campaign's contributions"
+msgstr ""
+
+#: ../assets/views/cinda/page_export.php:66
+msgid "Campaign:"
+msgstr ""
+
+#: ../assets/views/cinda/page_tracking.php:6
+#, php-format
+msgid "Tracking for <strong>%s</strong> campaign"
+msgstr ""
+
+#: ../assets/views/cinda/page_tracking.php:7
+#, php-format
+msgid "By <strong>%s</strong> in <strong>%s</strong>"
+msgstr ""
+
+#: ../assets/views/contribution/attributes_table.php:12 ../library/Cinda.php:299 .
+#: ./library/CPT/Volunteer.php:29
+msgid "Volunteer"
+msgstr ""
+
+#: ../assets/views/contribution/attributes_table.php:132 ..
+#: /assets/views/contribution/attributes_table.php:132
+msgid "View Tracking"
+msgstr ""
+
+#: ../templates/single-campaign.php:49
+msgid "Volunteers subscribed"
+msgstr ""
+
+#: ../templates/single-campaign.php:55
+#, php-format
+msgid "%s Contribution"
+msgid_plural "%s Contributions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/single-campaign.php:75
+msgid "View Contribution"
+msgstr ""
+
+#: ../templates/app/header.php:24
+msgid "CINDA: Volunteers Network"
+msgstr ""
+
+#: ../templates/app/header.php:26
+msgid "Home"
+msgstr ""
+
+#: ../templates/app/header.php:27
+msgid "Profile"
+msgstr ""
+
+#: ../templates/app/header.php:28 ../templates/app/volunteer/profile.php:23
+msgid "Logout"
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:25
+msgid "Password"
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:30
+msgid "Login"
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:33
+msgid "How I can receive the login credentials?"
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:35
+#, php-format
+msgid "Download <a href=\"%s\">CINDA - Citizen Science</a> from Google Play"
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:36
+msgid "Login in"
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:37
+#, php-format
+msgid "Click on %s button"
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:37
+msgid "Settings"
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:37
+msgid "Screenshot 1"
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:38
+msgid "Click on \"Solicitar clave web\""
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:38
+msgid "Screenshot 2"
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:39
+msgid "Click on \"Enviar solicitud de clave web\" button."
+msgstr ""
+
+#: ../templates/app/volunteer/login.php:40
+msgid "Check your email's inbox"
+msgstr ""
+
+#: ../templates/app/volunteer/profile.php:20
+#, php-format
+msgid "%s contribution"
+msgid_plural "%s contributions"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 'edit.php?post_type='. self::$name, 	// Parent slug
+#. Page title
+#: ../templates/app/volunteer/profile.php:30 ../templates/app/campaign/view.php:
+#: 47 ../library/CPT/Contribution.php:41 ../library/CPT/Contribution.php:46 ..
+#: /library/CPT/Contribution.php:72 ../library/CPT/Contribution.php:73
+msgid "Contributions"
+msgstr ""
+
+#: ../templates/app/volunteer/profile.php:43 ../templates/app/campaign/view.php:
+#: 64 ../templates/app/campaign/view.php:88
+msgid "View"
+msgstr ""
+
+#: ../templates/app/campaign/list.php:18
+#, php-format
+msgid "View campaign %s"
+msgstr ""
+
+#: ../templates/app/campaign/list.php:29
+msgid "View Campaign"
+msgstr ""
+
+#: ../templates/app/campaign/list.php:31 ../templates/app/campaign/view.php:39
+msgid "Unsuscribe"
+msgstr ""
+
+#: ../templates/app/campaign/list.php:33 ../templates/app/campaign/view.php:41
+msgid "Suscribe"
+msgstr ""
+
+#: ../templates/app/campaign/view.php:25
+msgid "Start Date"
+msgstr ""
+
+#: ../templates/app/campaign/view.php:30
+msgid "End Date"
+msgstr ""
+
+#: ../templates/app/campaign/view.php:36
+msgid "Send Contribution"
+msgstr ""
+
+#: ../templates/app/campaign/view.php:49
+msgid "Own"
+msgstr ""
+
+#: ../templates/app/campaign/view.php:50
+msgid "Others"
+msgstr ""
+
+#: ../templates/app/campaign/view.php:73
+msgid "You have not published contributions yet"
+msgstr ""
+
+#: ../templates/app/campaign/view.php:97
+msgid "No contributions found"
+msgstr ""
+
+#: ../templates/app/campaign/view.php:104 ../templates/app/contribution/view.php:34
+msgid "Actions"
+msgstr ""
+
+#: ../templates/app/campaign/view.php:106 ../templates/app/contribution/edit.php:
+#: 49 ../templates/app/contribution/view.php:36 ..
+#: /templates/app/contribution/create.php:41
+msgid "Back"
+msgstr ""
+
+#: ../templates/app/contribution/edit.php:20 ../templates/app/contribution/view.
+#: php:9
+msgid "Contribution data"
+msgstr ""
+
+#: ../templates/app/contribution/edit.php:27 ../templates/app/contribution/view.
+#: php:16
+msgid "Created Date"
+msgstr ""
+
+#: ../templates/app/contribution/edit.php:32 ../templates/app/contribution/view.
+#: php:21
+msgid "Modified Date"
+msgstr ""
+
+#: ../templates/app/contribution/edit.php:36 ../templates/app/contribution/view.
+#: php:25 ../templates/app/contribution/create.php:26
+msgid "Fields"
+msgstr ""
+
+#: ../templates/app/contribution/edit.php:40
+msgid "Field required"
+msgstr ""
+
+#: ../templates/app/contribution/edit.php:50 ../templates/app/contribution/create.
+#: php:42
+msgid "Save"
+msgstr ""
+
+#: ../templates/app/contribution/create.php:19 ../library/CPT/Contribution.php:43
+msgid "New Contribution"
+msgstr ""
+
+#: ../library/Cinda.php:340 ../library/Cinda.php:341
+msgid "About CINDA"
+msgstr ""
+
+#: ../library/Cinda.php:349 ../library/Cinda.php:350 ../library/global.php:32
+msgid "Configuration"
+msgstr ""
+
+#: ../library/Cinda.php:358 ../library/Cinda.php:359
+msgid "CSV Export"
+msgstr ""
+
+#: ../library/global.php:318
+msgid "Imposible send push, before configure PARSE parameters."
+msgstr ""
+
+#: ../library/CPT/Contribution.php:42
+msgid "Contribution"
+msgstr ""
+
+#: ../library/CPT/Contribution.php:44
+msgid "Add new contribution"
+msgstr ""
+
+#: ../library/CPT/Contribution.php:121
+msgid "Contribution Data"
+msgstr ""
+
+#. 'edit.php?post_type='. self::$name, 	// Parent slug
+#. Page title
+#: ../library/CPT/Volunteer.php:28 ../library/CPT/Volunteer.php:97 ..
+#: /library/CPT/Volunteer.php:98
+msgid "Volunteers"
+msgstr ""
+
+#: ../library/CPT/Volunteer.php:30
+msgid "New Volunteer"
+msgstr ""
+
+#: ../library/CPT/Volunteer.php:31
+msgid "Add new Volunteer"
+msgstr ""
+
+#: ../library/CPT/Volunteer.php:77
+msgid "Profile Data"
+msgstr ""
+
+#: ../library/CPT/Dictionary.php:30 ../library/CPT/Dictionary.php:89 ..
+#: /library/CPT/Dictionary.php:90
+msgid "Dictionaries"
+msgstr ""
+
+#: ../library/CPT/Dictionary.php:32
+msgid "New Dictionary"
+msgstr ""
+
+#: ../library/CPT/Dictionary.php:33
+msgid "Add new Dictionary"
+msgstr ""
+
+#: ../library/CPT/Dictionary.php:63
+msgid "Terms imported"
+msgstr ""
+
+#: ../library/CPT/Dictionary.php:65
+msgid "Import terms from CSV"
+msgstr ""
+
+#. 'edit.php?post_type='. self::$name, 	// Parent slug
+#. Page title
+#: ../library/CPT/Campaign.php:30 ../library/CPT/Campaign.php:144 ..
+#: /library/CPT/Campaign.php:145
+msgid "Campaigns"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:32
+msgid "New Campaign"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:33
+msgid "Add new Campaign"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:88
+msgid "Data-form model"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:89
+#, php-format
+msgid "%s Contributions"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:93
+msgid "Campaign Data"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:180
+#, php-format
+msgid "Campaign updated. <a href=\"%s\">View</a>"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:181
+msgid "Custom data model updated."
+msgstr ""
+
+#: ../library/CPT/Campaign.php:182
+msgid "Custom data model deleted."
+msgstr ""
+
+#: ../library/CPT/Campaign.php:183
+msgid "Campaign updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ../library/CPT/Campaign.php:185
+#, php-format
+msgid "Campaign restored to revision from %s"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:186
+#, php-format
+msgid "Campaign published. <a href=\"%s\">View campaign</a>"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:187
+msgid "Campaign saved."
+msgstr ""
+
+#: ../library/CPT/Campaign.php:188
+#, php-format
+msgid "Campaign submitted. <a target=\"_blank\" href=\"%s\">Preview Campaign</a>"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:189
+#, php-format
+msgid ""
+"Campaign scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview Campaign</a>"
+msgstr ""
+
+#. translators: Publish box date format, see http://php.net/date
+#: ../library/CPT/Campaign.php:191
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:192
+#, php-format
+msgid "Campaign draft updated. <a target=\"_blank\" href=\"%s\">Preview Campaign</a>"
+msgstr ""
+
+#: ../library/CPT/Campaign.php:347
+#, php-format
+msgid "Fields updated: %b.<br />Fields inserted: %b.<br />Fields not saved: %b"
+msgstr ""
+
+#: ../library/API/Contribution.php:73
+msgid "unknown"
+msgstr ""
+
+#: ../library/API/Contribution.php:209 ../library/API/Contribution.php:217
+msgid "Description not available"
+msgstr ""
+
+#: ../library/API/Contribution.php:242
+msgid "No token send"
+msgstr ""
+
+#: ../library/API/Contribution.php:259
+msgid "Nonce not valid."
+msgstr ""
+
+#: ../library/API/Contribution.php:284
+msgid "ID must be numeric."
+msgstr ""
+
+#: ../library/API/Contribution.php:289
+msgid "Contribution not exists."
+msgstr ""
+
+#: ../library/API/Contribution.php:296
+msgid "Authors not match"
+msgstr ""
+
+#: ../library/API/Contribution.php:307
+msgid "for"
+msgstr ""
+
+#: ../library/API/Contribution.php:307
+msgid "on"
+msgstr ""
+
+#: ../library/API/Contribution.php:324
+#, php-format
+msgid "New contribution for: %s"
+msgstr ""
+
+#: ../library/API/Contribution.php:325
+#, php-format
+msgid "The volunteer \"%s\" has sent a new contribution for: %s"
+msgstr ""
+
+#: ../library/API/Contribution.php:384
+msgid "Image not sent"
+msgstr ""
+
+#: ../library/API/Contribution.php:401
+msgid "Campaign not found"
+msgstr ""
+
+#: ../library/API/Contribution.php:406
+msgid "Volunteer not found"
+msgstr ""
+
+#: ../library/API/Contribution.php:413
+msgid "No data sent"
+msgstr ""
+
+#: ../library/API/Volunteer.php:567
+#, php-format
+msgid "Your credential to access at CINDA in the server %s"
+msgstr ""
+
+#: ../library/API/Volunteer.php:570
+#, php-format
+msgid "Here you have your credentials to access at CINDA in the server %s"
+msgstr ""
+
+#: ../library/API/Volunteer.php:571
+#, php-format
+msgid "URL: %s"
+msgstr ""
+
+#: ../library/API/Volunteer.php:572
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: ../library/API/Volunteer.php:573
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage all endpoint of plugin."
+msgstr ""
+
+#: ../library/APP/CindaApp.php:67
+msgid "CINDA: Volunteers Networks APP"
+msgstr ""
+
+#: ../library/APP/CindaApp.php:174
+msgid "Campaigns List"
+msgstr ""
+
+#: ../library/APP/CindaApp.php:191
+msgid "404 Not Found"
+msgstr ""
+
+#: ../library/APP/functions.php:27
+msgid "Donwload"
+msgstr ""
+
+#: ../library/APP/functions.php:116
+msgid "Replace"
+msgstr ""
+
+#: ../library/APP/functions.php:183
+msgid "No terms found"
+msgstr ""
